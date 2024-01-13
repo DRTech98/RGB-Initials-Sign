@@ -54,7 +54,7 @@ Counter = Counter + 1; //Advance the counter by one
 
 }
 
-if (Counter %2 == 0){ //If counter is NOT divisible by 2...
+if (Counter %2 == 0){ //If counter is divisible by 2...
 myResults = "Power Off"; //Set string to power off
 Serial.println(myResults); //Serial print string
    for (int i =0;i<24;i++) //Increment i by one until it reaches 24 as that was declared as the number of pixels
